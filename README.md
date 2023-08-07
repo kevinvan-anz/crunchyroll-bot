@@ -1,1 +1,1 @@
-# myanimelist-bot
+# crunchyroll-bot
