@@ -10,7 +10,7 @@ import (
 
 func main() {
 	username := os.Getenv("crunchyUsername")
-	password := os.Getenv("crunchyUsername")
+	password := os.Getenv("crunchyPassword")
 	client := http.DefaultClient
 
 	_, err := crunchyroll.LoginWithCredentials(username, password, crunchyroll.US, client)
